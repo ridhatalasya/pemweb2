@@ -8,7 +8,8 @@
                     <!-- Content -->
                     <h6 class="text-uppercase fw-bold mb-4">ADAEVENT</h6>
                     <p>
-                        AdaEvent merupakan sebuah website yang menyediakan berbagai macam event yang ada di Indonesia.
+                        AdaEvent merupakan sebuah website yang menyediakan berbagai macam event yang ada di
+                        Indonesia.
                     </p>
                 </div>
                 <!-- Grid column -->
@@ -58,4 +59,3 @@
     <!-- Copyright -->
 </footer>
 <!-- Footer -->
-</body>
