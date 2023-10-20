@@ -6,5 +6,11 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 $routes->get('/', 'Home::index');
-$routes->get('/test', 'Test::index');
-$routes->get('/test/insert', 'Test::insert');
+$routes->group('auth', function ($routes) {
+    $routes->get('login', 'Auth::login');
+    $routes->post('login', 'Auth::login');
+    $routes->get('register', 'Auth::register');
+});
+$routes->group('admin', function ($routes) {
+    $routes->get('tiket', 'Admin\Tiket::index');
+});
