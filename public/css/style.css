@@ -1,0 +1,28 @@
+  .bg-primary {
+      background-color: #11999E !important;
+  }
+
+  .navbar a.navbar-brand,
+  .navbar a.nav-link {
+      color: #FFFFFF;
+  }
+
+  .navbar a.navbar-brand:hover,
+  .navbar a.nav-link:hover {
+      color: #E0DBD1;
+  }
+
+  .navbar .btn-outline-success {
+      background-color: #057D8C;
+      border-color: #057D8C;
+      color: #FFFFFF;
+  }
+
+  .navbar .btn-outline-success:hover {
+      background-color: #4EBDC4;
+      /* Different color on hover */
+      border-color: #4EBDC4;
+      /* Optional: Set border color to match */
+      color: #FFFFFF;
+      /* White font color for contrast */
+  }
